@@ -56,5 +56,3 @@ const WarrenProvider: Provider<WarrenProviderRequest> = {
     }
   }
 };
-
-WarrenProvider.fetch({ entity: "FAVORITE_NUMBER" }).then((cool) => cool.map(()));
